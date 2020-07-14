@@ -143,7 +143,7 @@ module.exports = {
           if (response !== undefined) {
             _this.storeValue(response, storage, varName2, cache)
           } else {
-            console.log('Cleverbot-free error! Have DBM installed the npm module "cleverbot-free"?')
+            console.log('cleverbot-free error! Have DBM installed the npm module "cleverbot-free"?')
           }
           _this.callNextAction(cache)
         })
